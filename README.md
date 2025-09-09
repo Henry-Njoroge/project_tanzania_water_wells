@@ -1,10 +1,10 @@
 # phase3_project_henry
-Predicting Water Well Functionality in Tanzania
+**Predicting Water Well Functionality in Tanzania**
 
-Overview
+**Overview**
 Access to clean and reliable water remains a pressing development challenge in Tanzania. While thousands of water points have been established, many are non-functional or in need of repair, limiting safe water access for surrounding populations. The goal of this project is to predict the functionality status of water wells—whether functional, functional but needs repair, or non-functional—using available geospatial, demographic, and technical attributes of each well. Accurate predictions can help governments, NGOs, and donors prioritize resource allocation, reducing costs and improving service delivery.
 
-Business and Data Understanding
+**Business and Data Understanding**
 The dataset contains features such as:
 
 Geographical data: longitude, latitude, region, basin, population served.
@@ -15,12 +15,11 @@ Administrative data: funder, installer, permit status, scheme management.
 
 Target variable: water well condition (functional, functional needs repair, non functional).
 
-Explain your stakeholder audience and dataset choice here
+**Explain your stakeholder audience and dataset choice here**
 
-Modeling
+**Modeling**
 Logistics
 Random Forest
-
 Evaluation
 F1 score
 Prediction
