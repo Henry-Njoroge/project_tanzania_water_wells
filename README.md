@@ -22,7 +22,7 @@ The dataset contains features such as:
 
 - Target variable: water well condition (functional, functional needs repair, non-functional).
 
-**Explain your stakeholder audience and dataset choice here**
+**Stakeholders**
 
 The primary stakeholders for this project are:
 
@@ -33,10 +33,12 @@ The primary stakeholders for this project are:
 3. Community Health Teams: To anticipate water access crises and proactively address them, thereby improving public health outcomes.
 
 **Modeling**
+
 We developed the following models: Logistics;DecisionTree,Random Forest and XGBoost.
 The model's performance was evaluated using the F1 score (macro-averaged) as the primary metric. This is because the target classes are imbalanced, and the F1 score provides a balanced measure between Precision (minimizing false positives, e.g., incorrectly labeling a functional well as needing repair) and Recall (minimizing false negatives, e.g., failing to identify a non-functional well). A high recall is particularly important to ensure that few faulty wells are missed during inspection prioritization.
 
 **Conclusion**
+
 Prioritize Older Wells: Wells constructed before the 1990s are at a higher risk of failure and should be prioritized for inspection.
 
 Focus on Specific Management Models: Wells under specific management groups (e.g., 'user-group' vs. 'commercial') may require different support structures.
